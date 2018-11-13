@@ -1,0 +1,11 @@
+Column: Built
+color: light blue
+code:
+[Built] Is Not Null And DateDiffMinute([Built], LocalDateTimeNow()) < 5
+
+
+Column: any / 15 min dif display
+color: #FFBCD6C2
+code:
+DateDiffMinute([Table], [Cut]) < 15 And [Table] Is Not Null
+
