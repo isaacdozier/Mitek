@@ -7,5 +7,7 @@ code:
 Column: any / 15 min dif display
 color: #FFBCD6C2
 code:
-DateDiffMinute([Table], [Cut]) < 15 And [Table] Is Not Null
+DateDiffMinute([Table], [Built]) < 15 And [Built] Is Not Null
+DateDiffMinute([Cut], [Table]) < 15 And [Table] Is Not Null
+DateDiffMinute([Saw], [Cut]) < 15 And [Cut] Is Not Null
 
