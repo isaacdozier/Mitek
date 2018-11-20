@@ -1,0 +1,4 @@
+Column: any
+color: 
+code:
+[Quote] Is Not Null And [Design] Is Not Null And DateDiffDay([Quote], [Design]) < 7
